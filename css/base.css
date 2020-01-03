@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0
+}
+.w {
+  width: 1200px;
+  margin: 0 auto;
+}
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/ico-fonts/icomoon.eot?18i6qi');
+  src:  url('../fonts/ico-fonts/icomoon.eot?18i6qi#iefix') format('embedded-opentype'),
+    url('../fonts/ico-fonts/icomoon.ttf?18i6qi') format('truetype'),
+    url('../fonts/ico-fonts/icomoon.woff?18i6qi') format('woff'),
+    url('../fonts/ico-fonts/icomoon.svg?18i6qi#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'shangya';
+  src:  url(../fonts/fonts/shangya.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'SourceHanSansCN';
+  src: url(../fonts/fonts/SourceHanSansSC-Normal.otf) format('otf');
+}
+a, s {
+  text-decoration: none;
+}
+em, i {
+  font-style: normal
+}
+ul, li {
+  list-style: none;
+}
+button {
+  border: 0;
+  background-color:transparent;
+  outline: none;
+}
+/*清除浮动*/
+.clearfix:after {
+  visibility:hidden;
+  clear:both;
+  display:block;
+  content:".";
+  height:0
+}
+.clearfix {
+  *zoom:1
+}
